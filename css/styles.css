@@ -1,0 +1,440 @@
+html {
+    margin: 0 0;
+    padding: 0 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    height: 160px;
+    position: fixed;
+    background-color: white;
+    border-bottom: 3px solid rgb(105, 80, 54);
+    z-index: 3;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* header logo */
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo-text h2 {
+    color: rgb(183, 136, 18);
+}
+
+.logo-img {
+    width: 7rem;
+    height: auto;
+    padding: 1rem 2rem 1rem 1rem;
+}
+
+#header-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* header navigation */
+
+#nav-bar ul {
+    padding: 0 0;
+    margin: 0.5rem 0.5rem;
+}
+
+#nav-bar ul li {
+    display: inline-block;
+}
+
+#nav-bar li a {
+   text-decoration: none; 
+   padding: 0.5rem 0.7rem 0.7rem 0.7rem;
+   font-size: 1.2rem;
+   color: rgb(105, 80, 54);
+   margin: 0.3rem 0 0.3rem 0;
+   line-height: 2rem;
+}
+
+#nav-bar li a:hover {
+    background-color: darkgoldenrod;
+    color: white;
+    transition: 0.5s ease-out;
+  }
+
+/* article */
+
+#article-container {
+    padding-top: 160px;
+    width: 100%;
+    height: auto;
+}
+
+/*our coffee*/
+
+#our-coffee {
+    scroll-margin-top: 160px;
+}
+
+#our-coffee h2 {
+    padding-top: 2rem;
+    font-size: 2rem;
+    color: rgb(105, 80, 54);
+    text-align: center;
+    margin: 0 0;
+}
+
+.coffee-is h5 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0 5rem 0 5rem;
+    text-align: center;
+}
+
+/* video */
+
+/*how it works*/
+
+#how-it-works {
+    scroll-margin-top: 160px;  
+}
+
+#how-it-works, h2 {
+    font-size: 2rem;
+    color: rgb(105, 80, 54);
+    text-align: center;
+}
+
+.do-you-ever h5 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0 5rem 0 5rem;
+    text-align: center;   
+}
+
+.video-div {
+    padding-top: 0.7rem;    
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+/*time to choose*/
+
+#time-to-choose {
+    scroll-margin-top: 160px;  
+}
+
+#time-to-choose h2 {
+    font-size: 2rem;
+    color: rgb(105, 80, 54);
+    text-align: center;
+}
+
+.whether-you h5 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0 5rem 0 5rem;
+    text-align: center;   
+}
+
+/*time to choose*/
+
+.coffee-flex-cont {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.coffee-container {
+    width: 31%;
+    height: auto;
+}
+
+.coffee-container h3 {
+    font-size: 1.8rem;
+    color: darkgoldenrod;
+}
+
+.coffee-container h4 {
+    font-size: 1.3rem;
+    color: rgb(105, 80, 54);
+    font-weight: 600;
+}
+
+.coffee-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    padding: 0.7rem 3rem 0.7rem 3rem;
+}
+
+button h4 {
+    font-size: 1.8rem;
+    color: darkgoldenrod;
+    margin:0 0;
+}
+
+button:hover {
+    background-color: goldenrod;
+    border-color: white;
+    ;
+}
+
+button h4:hover {
+    color: beige;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+
+/* join club */
+
+#coffee-lovers-title {
+    scroll-margin-top: 160px; 
+}
+
+#coffee-lovers-title h2 {
+    font-size: 2rem;
+    text-align: center; 
+}
+
+.coffee-club h5 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0 5rem 0 5rem;
+    text-align: center;   
+}
+
+/*form*/
+
+#email-label h4 {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+#submit-label h4 {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.club-email h3 {
+    font-size: 1.8rem;  
+}
+
+#email, #submit {
+    width: 12rem;
+    height: 2.5rem;
+    padding-left: 0.7rem;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: rgb(108, 198, 108);
+    color: white;
+    border-color: white;
+}
+
+form {
+    padding-bottom: 1rem;
+}
+
+/*footer*/
+
+footer {
+    height: 10rem;
+}
+
+.background-img {
+    background-image: url("\coffee-g6d83bb4c6_1920_1.jpg");
+}
+
+.background-img .footer-background-img-media {
+    display: none;
+}  
+
+.background-img img {
+    width: 100%;
+    height: 200px;
+    background-size: cover; 
+    display: block;
+    overflow: hidden;
+}
+
+.footer-inside {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.copyright {
+    padding-left: 1rem;
+}
+
+.copyright h6, .phone h6 {
+    font-size: 1.1rem;
+    color: rgb(105, 80, 54);
+    text-decoration: none;
+}
+
+a.copyright-link {
+    text-decoration: none;
+    color: rgb(105, 80, 54);
+    padding: 0.5rem 0.7rem  0.5rem 0.7rem;
+}
+
+a.copyright-link:hover {
+  background-color: white;
+}
+
+.terms ul {
+    padding: 1.2rem 1rem 0 0;
+}
+
+.terms ul li {
+    display: inline-block;
+}
+
+.terms li a {
+    text-decoration: none; 
+    padding: 0.5rem 0.7rem  0.5rem 0.7rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(105, 80, 54);
+    line-height: 2rem;
+ }
+ 
+ .terms li a:hover {
+     transition: 0.5s ease-out;
+     background-color: white;
+   }
+
+
+/*media*/
+
+@media only screen and (max-width: 998px) {
+
+    .coffee-flex-cont {
+        flex-direction: column;
+    }
+
+    .coffee-container {
+        width: 70%;
+        height: auto;
+        margin: auto;
+    }
+
+    .footer-inside {
+        flex-direction: column;
+       align-items: center;
+       padding-top: 0.7rem;
+    }
+
+    .footer-inside {
+        position: absolute;
+    }
+
+    .background-img .footer-background-img {
+        display: none;
+    }
+    
+    .background-img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .background-img .footer-background-img-media {
+        display: block;
+    }  
+
+    .background-img img {
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .video-div {
+        width: 70%;
+    }
+
+    .footer-inside {
+        padding-top: 3rem;
+    }
+
+    .terms ul {
+        padding-top: 0;
+        margin-top: 0rem;
+    }
+
+    h6 {
+        margin: 0.5rem 0.5rem;
+    }
+
+    #header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-img {
+        width: 5rem;
+        height: auto;
+        padding: 0.2rem 2rem 0.2rem 3rem;
+    }
+
+    .logo-text h2 {
+        margin-top: 0.2rem;
+        margin-bottom: 0.2rem;
+        padding-right: 2rem;
+    }
+
+    #nav-bar li a {
+        text-decoration: none; 
+        padding: 0.2rem 0.3rem 0.2rem 0.3rem;
+        font-size: 1rem;
+        color: rgb(105, 80, 54);
+        margin: 0.1rem 0 0.1rem 0;
+        line-height: 1.4rem;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
